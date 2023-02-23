@@ -16,7 +16,6 @@ env:
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
   CONTAINER_REGISTRY_PULL_SECRET: ${{ secrets.QUAY_DOCKER_CONFIG_JSON_PULL_SECRET}}
   CONTAINER_REGISTRY: ${{ secrets.CONTAINER_REGISTRY}} # use "docker.io" for docker hub 
-g
 jobs:
   
   build:
